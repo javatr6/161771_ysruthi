@@ -1,0 +1,13 @@
+
+ CREATE TABLE userlogin(
+      id MEDIUMINT NOT NULL AUTO_INCREMENT,
+      username CHAR(30) NOT NULL,
+ userpsswd CHAR(30) NOT NULL,
+      PRIMARY KEY (id)
+ );
+ 
+ insert into userlogin(username,userpsswd) values('sai','sruthi');
+ insert into userlogin(username,userpsswd) values('sri','srija');
+ insert into userlogin(username,userpsswd) values('sai','krishna');
+
+ 
